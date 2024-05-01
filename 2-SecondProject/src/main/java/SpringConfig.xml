@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd"> 
+<bean id="institute" class="com.spring.first._SecondProject.AmeerpetTech">
+	<property name="studentNames">
+	<list>
+		<value>Amar</value>
+		<value>Ashu</value>
+		<value>Lavanya</value>
+		<value>Madhuri</value>
+		<value>Venkey</value>
+		<value>Siri</value>
+		<value>Manohar</value>
+	</list>
+	</property>  
+	 </bean>
+</beans>

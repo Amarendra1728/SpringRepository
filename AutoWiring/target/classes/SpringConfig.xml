@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd"> 
+<!--<bean id="first" class="com.spring.first.AutoWiring.First">
+	 <constructor-arg ref="second"/>
+	 </bean>
+	 <bean id="second" class="com.spring.first.AutoWiring.Second">
+	  <constructor-arg value="123"/>
+	  <constructor-arg value="Amarendra"/>
+	 </bean>-->
+	 <bean id="second" class="com.spring.first.AutoWiring.Second">
+	  <constructor-arg value="123"/>
+	  <constructor-arg value="Amarendra"/>
+	 </bean>
+	 <!--<bean id="first" class="com.spring.first.AutoWiring.First" autowire="byType">-->
+		<!--<bean id="first" class="com.spring.first.AutoWiring.First" autowire="byName">-->
+			<bean id="first" class="com.spring.first.AutoWiring.First" autowire="constructor">
+	 </bean>
+</beans>

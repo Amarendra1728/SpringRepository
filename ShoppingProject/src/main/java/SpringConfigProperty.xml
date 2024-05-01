@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd"> 
+<bean id="prdt" class="com.spring.first.ShoppingProject.ProductClass">
+	 <property name="pid" value="4505"></property>
+	<property name="pName" value="Mobile"></property>
+	<property name="pPrice" value="35000"></property>
+	<property name="pQuantity" value="11"></property>
+	 </bean>
+	<bean id="order" class="com.spring.first.ShoppingProject.OrderClass">
+	<property name="orderId" value="2817"></property>
+	<property name="product" ref="prdt"></property>
+	</bean>
+</beans>

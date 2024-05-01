@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd"> 
+<bean id="std" class="com.spring.first._StudentApplication.StudentClass">
+	  <constructor-arg value="1728"/>
+	  <constructor-arg value="Amarendra"/>
+	  <constructor-arg value="Java Full Stack"/>
+	  <constructor-arg value="11"/>
+	  <constructor-arg value="Hyderabad"/>
+	  
+	 </bean>
+</beans>
